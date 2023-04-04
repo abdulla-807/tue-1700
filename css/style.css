@@ -25,6 +25,27 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+.header {
+  background: #322E41;
+}
+
+.menu {
+ display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__link {
+  font-size: 16px;
+color: #fff;
+  text-transform: uppercase;
+  display: block;
+}
+
+.nav {
+  display: flex;
+  }
+
 
 .header__content {
   background-image: url(../img/header-bg.jpg);
@@ -46,4 +67,5 @@ ul {
 
 .header__desc {
   font-size: 18px;
+
 }
