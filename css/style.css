@@ -25,3 +25,36 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+.news {
+  padding: 15px;
+}
+.news__list {
+  display: flex;
+  justify-content: space-between;
+}
+.news__card {
+  max-width: 350px;
+  width: 100%;
+  height: 514px;
+  border-radius: 3px;
+}
+.news_img {
+ border-radius: 3px;
+}
+.news_title {
+  font-size: 22px;
+  color: #2C2A2A;
+}
+.news_desc {
+  color: #9B9B9B;
+  font-size: 16px;
+}
+.news_link {
+  background: #DFC900;
+  transition: 0.5s;
+  padding: 11px 0;
+}
+.news_link:hover {
+  background: #000;
+  color: #DFC900;
+}
