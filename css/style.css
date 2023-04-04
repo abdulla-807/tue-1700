@@ -25,3 +25,16 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.products__list {
+  width: 50%;
+}
+.products__card {
+  max-width: 345px;
+  width: 100%;
+}
+
+.products__wrapper {
+  width: 100%;
+  display: flex;
+}
